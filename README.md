@@ -10,6 +10,11 @@ If chosen to solve a real cube the application will ask you to enter the permuta
 from the yellow face, then blue, red, green, orange and at last white.
 After this the algorithm will solve the cube an the user will be given a series of moves that was used to solve it.
 
+Note:
+- When asked for the yellow face, have the face towards yourself and have the orange face on top for the correct orientation.
+- When asked for the blue, red, green, and orange face, have the face towards yourself and have the yellow face on top for the correct orientation.
+- When asked for the white face, have the face towards yourself and have the red face on top for the correct orientation.
+
 # syntax
 In rubix solving there is a special syntax used. To make this application accessible this syntax is not used. Instead
 each move will be written as which face needs to be turned, and which direction. With C meaning clockwise, and CC meaning counter clockwise.
